@@ -61,6 +61,8 @@ nav {
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 nav a {
@@ -83,6 +85,8 @@ nav a {
 	display: none;
 	cursor: pointer;
 	z-index: 999;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 .nav.active-nav {
@@ -158,7 +162,7 @@ nav a {
 	cursor: pointer;
 }
 
-.btns button:hover{
+.btns button:hover {
 	background: var(--Darkcyan);
 	color: white;
 }
@@ -180,15 +184,15 @@ nav a {
 	display: none;
 }
 
-.bookmark .bookmark-btn.active-bookmark g circle{
+.bookmark .bookmark-btn.active-bookmark g circle {
 	fill: hsl(176, 72%, 28%);
 }
 
-.bookmark .bookmark-btn.active-bookmark g path{
+.bookmark .bookmark-btn.active-bookmark g path {
 	fill: white;
 }
 
-.bookmark h3.active-bookmark-text{
+.bookmark h3.active-bookmark-text {
 	color: var(--Darkcyan);
 }
 /* Modal Selection */
@@ -207,6 +211,8 @@ nav a {
 	z-index: 999;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 .modal-selection .header {
@@ -252,7 +258,7 @@ nav a {
 	gap: 1rem;
 }
 
-.radio-header-text .heading:hover{
+.radio-header-text .heading:hover {
 	cursor: pointer;
 	color: var(--Moderatecyan);
 }
@@ -339,7 +345,7 @@ input[type="number"] {
 input[type="number"]:focus {
 	outline: none;
 	border: 2px solid var(--Moderatecyan);
-  }
+}
 
 .pledge-wrapper {
 	display: none;
@@ -360,6 +366,8 @@ input[type="number"]:focus {
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 .modal-completed p {
@@ -383,7 +391,7 @@ input[type="number"]:focus {
 	margin-bottom: 2rem;
 }
 
-.modal-completed button:hover{
+.modal-completed button:hover {
 	background-color: var(--Darkcyan);
 	color: white;
 }
@@ -550,7 +558,7 @@ input[type="number"]:focus {
 		background-image: url(./images/image-hero-desktop.jpg);
 	}
 
-	header img{
+	header img {
 		margin-left: 10rem;
 		margin-top: 1rem;
 	}
@@ -589,21 +597,23 @@ input[type="number"]:focus {
 		display: none;
 		cursor: pointer;
 		z-index: 999;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
 	}
 
 	.mastercraft {
 		width: 50%;
 	}
 
-	.mastercraft h2{
+	.mastercraft h2 {
 		font-size: 2rem;
 	}
 
-	.mastercraft p{
+	.mastercraft p {
 		font-size: 1.2rem;
 	}
 
-	.mastercraft h2 span{
+	.mastercraft h2 span {
 		display: inline;
 	}
 
@@ -637,13 +647,15 @@ input[type="number"]:focus {
 		top: 50%;
 		left: 50%;
 		transform: translate(-30%, -60%);
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
 	}
 
 	.backing-tracker {
 		width: 50%;
 	}
 
-	.tracker-wrapper{
+	.tracker-wrapper {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -761,7 +773,7 @@ input[type="number"]:focus {
 		margin-top: 0rem;
 	}
 
-	.modal-completed{
+	.modal-completed {
 		width: 30%;
 		position: absolute;
 		top: 0rem;
