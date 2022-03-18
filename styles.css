@@ -60,9 +60,7 @@ nav {
 	border-radius: 0.8rem;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
-	z-index: 990;
-	-webkit-transform: translate3d(0, 0, 100px);
-	transform: translate3d(0, 0, 100px);
+	z-index: 999;
 }
 
 nav a {
@@ -84,9 +82,7 @@ nav a {
 .close-menu {
 	display: none;
 	cursor: pointer;
-	z-index: 991;
-	-webkit-transform: translate3d(0, 0, 150px);
-	transform: translate3d(0, 0, 150px);
+	z-index: 999;
 }
 
 .nav.active-nav {
@@ -208,11 +204,9 @@ nav a {
 	width: 90%;
 	border-radius: 0.8rem;
 	padding: 2rem 1rem;
-	z-index: 993;
+	z-index: 999;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
-	-webkit-transform: translate3d(0, 0, 200px);
-	transform: translate3d(0, 0, 200px);
 }
 
 .modal-selection .header {
@@ -365,9 +359,7 @@ input[type="number"]:focus {
 	border-radius: 0.8rem;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
-	z-index: 994;
-	-webkit-transform: translate3d(0, 0, 250px);
-	transform: translate3d(0, 0, 250px);
+	z-index: 999;
 }
 
 .modal-completed p {
@@ -596,9 +588,7 @@ input[type="number"]:focus {
 	.close-menu {
 		display: none;
 		cursor: pointer;
-		z-index: 996;
-		-webkit-transform: translate3d(0, 0, 300px);
-		transform: translate3d(0, 0, 300px);
+		z-index: 999;
 	}
 
 	.mastercraft {
