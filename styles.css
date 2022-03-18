@@ -59,6 +59,7 @@ nav {
 	width: 100%;
 	border-radius: 0.8rem;
 	box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
 }
 
@@ -205,6 +206,7 @@ nav a {
 	padding: 2rem 1rem;
 	z-index: 999;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
 }
 
 .modal-selection .header {
@@ -356,6 +358,7 @@ input[type="number"]:focus {
 	padding-top: 2rem;
 	border-radius: 0.8rem;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
 }
 
@@ -526,6 +529,7 @@ input[type="number"]:focus {
 	/* background: whitesmoke; */
 	/* position: relative; */
 	box-shadow: inset 350px 100px 500px 400px hsla(0, 0%, 50%, 0.1);
+	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
 }
 
 .modal.mahogany button {
@@ -560,6 +564,7 @@ input[type="number"]:focus {
 		width: 100%;
 		border-radius: none;
 		box-shadow: none;
+		-webkit-box-shadow: none;
 		z-index: 2;
 		gap: 2rem;
 		margin-right: 8rem;
