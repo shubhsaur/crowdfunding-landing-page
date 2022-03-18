@@ -58,8 +58,8 @@ nav {
 	top: 4rem;
 	width: 100%;
 	border-radius: 0.8rem;
-	box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
-	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
+	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
 }
 
@@ -206,7 +206,7 @@ nav a {
 	padding: 2rem 1rem;
 	z-index: 999;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
-	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 }
 
 .modal-selection .header {
@@ -358,7 +358,7 @@ input[type="number"]:focus {
 	padding-top: 2rem;
 	border-radius: 0.8rem;
 	box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
-	-webkit-box-shadow: 0px 0px 15px 100vh hsla(0, 0%, 0%, 0.4);
+	-webkit-box-shadow: 0px 0px 15px 4000px hsla(0, 0%, 0%, 0.4);
 	z-index: 999;
 }
 
